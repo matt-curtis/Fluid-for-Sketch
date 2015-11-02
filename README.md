@@ -24,7 +24,7 @@ Sketch Constraints is a plugin for Sketch that provides a means to create more c
 
 # Usage
 
-First and foremost, I recommend downloading the example Sketch document included in this repo and linked to above. I've included several examples there, and examining the constraints used and playing around makes things clearer.
+First and foremost, I recommend downloading the example Sketch document included in this repo and linked to above. I've included several examples there, and examining the constraints used and playing around (ie. changing constraints, resizing Artboards and pressing `Update Layout`) makes things clearer.
 
 There are 3 primary actions: Show/Hide Toolbar, Update Layout, Edit Constraints and Preview. All of the features that the plugin provides are available via `Plugins > Sketch Constraints`.
 
@@ -46,7 +46,7 @@ Next to each section (Align, Fixed Size and Pinning) is a dropdown button. Press
 
 ### Update Layout (⌃ + ⇧ + L)
 
-Applies your constraints to the current artboard.
+Adjusts the layers in the current artboard to reflect your constraints.
 
 ### Preview (⌃ + ⇧ + P)
 
