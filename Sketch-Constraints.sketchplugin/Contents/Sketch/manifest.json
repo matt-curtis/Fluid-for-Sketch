@@ -1,0 +1,53 @@
+{
+	"name": "Sketch Constraints",
+	"description": "Auto Layout-like constraints in Sketch",
+	"author": "Matt Curtis",
+	"homepage": "http://github.com/matt-curtis/SketchConstraints",
+	"version": 1.5,
+
+	"identifier": "com.matt-curtis.sketch.constraints",
+	"updateURL": "hhttp://github.com/matt-curtis/SketchConstraints/manifest.json",
+	"compatibleVersion": 3,
+	"bundleVersion": 1,
+
+	"commands": [
+		{
+			"name": "Show/Hide Toolbar",
+			"identifier": "command_toggleToolbarVisiblity",
+			"shortcut": "ctrl shift t",
+			"script": "dynamicCommands.js",
+			"handler": "command_toggleToolbarVisiblity"
+		},
+		{
+			"name": "Update Layout",
+			"identifier": "command_updateLayout",
+			"shortcut": "ctrl shift l",
+			"script": "dynamicCommands.js",
+			"handler": "command_updateLayout"
+		},
+		{
+			"name": "Edit Constraints",
+			"identifier": "command_editConstraints",
+			"shortcut": "ctrl shift c",
+			"script": "dynamicCommands.js",
+			"handler": "command_editConstraints"
+		},
+		{
+			"name": "Preview",
+			"identifier": "command_preview",
+			"shortcut": "ctrl shift p",
+			"script": "dynamicCommands.js",
+			"handler": "command_preview"
+		}
+	],
+
+	"menu": {
+		"title": "Sketch Constraints",
+		"items": [
+			"command_toggleToolbarVisiblity",
+			"command_updateLayout",
+			"command_editConstraints",
+			"command_preview"
+		]
+	}
+}
