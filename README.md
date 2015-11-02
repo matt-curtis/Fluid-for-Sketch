@@ -1,8 +1,8 @@
-# 📐 Sketch Constraints
+# :triangular_ruler: Sketch Constraints
 
 Sketch Constraints is a plugin for Sketch that provides a means to create more constraint-based, responsive designs. It is based on Auto Layout constraints.
 
-📦 [Download Plugin](/Sketch-Constraints.sketchplugin) | ⬇️ [Download the Example Sketch Document](/Constraint Demos.sketch)
+:package: [Download Plugin](/Sketch-Constraints.sketchplugin) | :arrow_down: [Download the Example Sketch Document](/Constraint Demos.sketch)
 --- | ---
 
 --
