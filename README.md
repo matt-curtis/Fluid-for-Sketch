@@ -9,6 +9,12 @@ Sketch Constraints is a plugin for Sketch that provides a means to create more c
 
 ![](README/screenshot.png)
 
+# Installation
+
+1. Download the .zip above.
+2. Double-click it.
+3. ??? Profit.
+
 # Features
 
 - Pin, Offset, Center, and Size relative to Parent Group, Parent Artboard, or Previous Sibling Layer.
