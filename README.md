@@ -76,6 +76,10 @@ Since the width and height of Groups in Sketch are dependent on their sub-layers
 
 If you set the width of a text layer but not its height, the plugin will set the height of the text layer to the height of the text after reflow.
 
+### Proportions (Aspect Ratio Sizing)
+
+In order to acheive this, the easiest way is to lock the layer's width and height in Sketch's Layer Inspector, and set your constraints to change only one or the other.
+
 
 # Contact
 
