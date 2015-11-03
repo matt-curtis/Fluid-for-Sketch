@@ -78,7 +78,7 @@ If you set the width of a text layer but not its height, the plugin will set the
 
 ### Proportions (Aspect Ratio Sizing)
 
-In order to acheive this, the easiest way is to lock the layer's width and height in Sketch's Layer Inspector, and set your constraints to change only one or the other.
+In order to acheive this, the easiest way is to use the aspect ratio lock in Sketch's Layer Inspector, and set your constraints to change width or height.
 
 
 # Contact
