@@ -1,8 +1,8 @@
-# :triangular_ruler: Sketch Constraints 1.0
+# :triangular_ruler: Fluid for Sketch 1.0
 
 > *A collaborative project brought to you by [Matt Curtis](https://twitter.com/matt_sven) & [Cat Noone](https://twitter.com/imcatnoone)*
 
-Sketch Constraints is a Sketch plugin that provides a means to create more constraint-based, responsive designs. It is based on Auto Layout constraints.
+Fluid for Sketch is a Sketch plugin that provides a means to create more constraint-based, responsive designs. It is based on Auto Layout constraints.
 
 :package: [Download Plugin (Zipped)](https://github.com/matt-curtis/Sketch-Constraints/releases/download/v1.0/Sketch-Constraints.sketchplugin.zip) | :arrow_down: [Download the Example Sketch Document](https://github.com/matt-curtis/Sketch-Constraints/raw/master/Constraint%20Demos.sketch)
 --- | ---
@@ -28,7 +28,7 @@ Sketch Constraints is a Sketch plugin that provides a means to create more const
 
 First and foremost, we recommend downloading the example Sketch document included in this repo (linked to it above). There are several examples included there, and examining the constraints used and playing around with the different options (i.e. Changing constraints, re-sizing artboards and pressing `Update Layout`) makes things clearer.
 
-There are 4 primary actions: Show/Hide Toolbar, Update Layout, Edit Constraints and Preview. All of the features the plugin provides are available via `Plugins > Sketch Constraints`.
+There are 4 primary actions: Show/Hide Toolbar, Update Layout, Edit Constraints and Preview. All of the features the plugin provides are available via `Plugins > Fluid for Sketch`.
 
 ### Show/Hide Toolbar (⌃ + ⇧ + T)
 
