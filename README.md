@@ -2,7 +2,7 @@
 
 > *A collaborative project brought to you by [Matt Curtis](https://twitter.com/matt_sven) & [Cat Noone](https://twitter.com/imcatnoone)*
 
-Fluid for Sketch is a Sketch plugin that provides a means to create more constraint-based, responsive designs. It is based on Auto Layout constraints.
+Fluid is a Sketch plugin that provides a means to create more constraint-based, responsive designs. It is based on Auto Layout constraints.
 
 :package: [Download Plugin (Zipped)](https://github.com/matt-curtis/Sketch-Constraints/releases/download/v1.0/Sketch-Constraints.sketchplugin.zip) | :arrow_down: [Download the Example Sketch Document](https://github.com/matt-curtis/Sketch-Constraints/raw/master/Constraint%20Demos.sketch)
 --- | ---
