@@ -20,7 +20,7 @@ Sketch Constraints is a plugin for Sketch that provides a means to create more c
 - Pin, Offset, Center, and Size relative to Parent Group, Parent Artboard, or Previous Sibling Layer.
 - Utilize simple mathematic expressions as values, such as `50% - 10`
 - View your artboards at different sizes using Preview Mode [**](#preview-mode)
-- Constraints are stored directly on a layer, so no weirdness with layer names. *Shudder*
+- Constraints are stored directly on a layer, so no worries with layer names.
 
 # Usage
 
@@ -62,7 +62,7 @@ Preview Mode is rather limited at this time - it only allows you to preview artb
 
 ### Width & Height
 
-If you have Fixed Width or Fixed Height checked and leave the value blank, the plugin will lock the width or height to whatever the current height or width is in Sketch. This is useful in some cases where you want to ensure that the height and width don't change. Less useful for groups, where the height and width are equal to the content.
+If you have Fixed Width or Fixed Height checked and leave the value blank, the plugin will lock the width or height to whatever the current height or width is in Sketch. This is useful in some cases where you want to ensure that the height and width don't change. Less useful for groups, where the height and width are equal to the content (see 'Groups' below)
 
 ### Symbols
 
@@ -71,8 +71,6 @@ It's worth noting that while constraints you set on a Symbol *itself* will not p
 ### Groups
 
 Since the width and height of Groups in Sketch are dependent on their sub-layers, this plugin does not actually resize the height or width of a group, as that would distort the layers in it. Rather, it simulates that sizing when calculating the geometry of sub-layers.
-
-**TL;DR:** Setting the width/height constraints on a group won't change its actual width or height.
 
 ### Text
 
