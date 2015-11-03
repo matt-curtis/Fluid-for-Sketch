@@ -85,4 +85,5 @@ In order to acheive this, the easiest way is to use the aspect ratio lock in Ske
 
 # Contact
 
-Questions? Comments? Probably unreciprocated declarations of love for the both of us? Reach out and/or follow us Twitter: [@matt_sven](http://twitter.com/matt_sven) and [@imcatnoone](http://twitter.com/imcatnoone).
+If you have any questions, comments, become attacked by technical bugs, or have ideas to improve the plugin, ping us on twitter:
+[@matt_sven](http://twitter.com/matt_sven) and [@imcatnoone](http://twitter.com/imcatnoone).
