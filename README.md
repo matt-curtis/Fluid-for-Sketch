@@ -4,7 +4,7 @@
 
 Fluid is a Sketch plugin that provides a means to create more constraint-based, responsive designs. It is based on Auto Layout constraints.
 
-:package: [Download Plugin (Zipped)](https://github.com/matt-curtis/Sketch-Constraints/releases/download/v1.0/Sketch-Constraints.sketchplugin.zip) | :arrow_down: [Download the Example Sketch Document](https://github.com/matt-curtis/Sketch-Constraints/raw/master/Constraint%20Demos.sketch)
+:package: [Download Plugin (Zipped)](https://github.com/matt-curtis/Fluid-for-Sketch/releases/download/v1.0/Fluid.sketchplugin.zip) | :arrow_down: [Download the Example Sketch Document](https://github.com/matt-curtis/Fluid-for-Sketch/raw/master/Constraint%20Demos.sketch)
 --- | ---
 
 --
@@ -14,7 +14,7 @@ Fluid is a Sketch plugin that provides a means to create more constraint-based, 
 # Installation
 
 1. Download the `.zip` above and extract it.
-2. Double-click `Sketch-Constraints.sketchplugin`.
+2. Double-click `Fluid.sketchplugin`.
 3. ??? Profit.
 
 # Features
