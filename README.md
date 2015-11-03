@@ -1,4 +1,4 @@
-# :triangular_ruler: Fluid for Sketch 1.0
+# :droplet: Fluid for Sketch 1.0
 
 > *A collaborative project brought to you by [Matt Curtis](https://twitter.com/matt_sven) & [Cat Noone](https://twitter.com/imcatnoone)*
 
