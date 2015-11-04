@@ -17,7 +17,8 @@ Fluid is a Sketch plugin that provides a means to create more constraint-based, 
 
 1. Download the `.zip` above and extract it.
 2. Double-click `Fluid.sketchplugin`.
-3. ??? Profit.
+3. ???
+4. Profit!!!
 
 # Features
 
