@@ -20,6 +20,10 @@ Fluid is a Sketch plugin that provides a means to create more constraint-based, 
 3. ???
 4. Profit!!!
 
+# Updating
+
+1. Restart Sketch after installing an updated `.sketchplugin`.
+
 # Features
 
 - Pin, Offset, Center, and Size relative to Parent Group, Parent Artboard, or Previous Sibling Layer.
