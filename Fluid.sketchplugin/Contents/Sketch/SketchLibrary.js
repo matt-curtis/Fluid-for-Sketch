@@ -380,8 +380,12 @@
 
 		var resourcesPath = paths.resourcesPath;
 
-		if(runtime.classExists("MCSketchBundleLoader") == false){
-			runtime.loadFramework("MCSketchBundleLoaderFramework", resourcesPath);
+		if(!runtime.classExists("MCSketchBundleLoader")){
+			if(!runtime.loadFramework("MCSketchBundleLoaderFramework", resourcesPath)){
+				log("Failed to load bundle-loader framework.");
+
+				return false;
+			}
 		}
 
 		//	Load our bundle
