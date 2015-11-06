@@ -1,9 +1,9 @@
 {
-	"name": "Fluid",
+	"name": "💧 Fluid",
 	"description": "Auto Layout-like constraints in Sketch",
 	"author": "Matt Curtis",
 	"homepage": "https://github.com/matt-curtis/Fluid-for-Sketch",
-	"version": 1.5,
+	"version": "1.6.1",
 
 	"identifier": "com.matt-curtis.sketch.constraints",
 	"updateURL": "https://raw.githubusercontent.com/matt-curtis/Fluid-for-Sketch/master/Fluid.sketchplugin/Contents/Sketch/manifest.json",
@@ -42,7 +42,7 @@
 	],
 
 	"menu": {
-		"title": "Fluid",
+		"title": "💧 Fluid",
 		"items": [
 			"command_toggleToolbarVisiblity",
 			"command_updateLayout",
