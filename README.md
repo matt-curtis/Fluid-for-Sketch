@@ -20,6 +20,8 @@ Fluid is a Sketch plugin that provides a means to create more constraint-based, 
 3. ???
 4. Profit!!!
 
+> A small number of people have experienced a rare bug where Fluid does not install successfully and commands do not work. If you think you might have this issue, please follow the instructions in this issue [here](https://github.com/matt-curtis/Fluid-for-Sketch/issues/32#issuecomment-154099340) to help us fix it.
+
 # Updating
 
 1. Restart Sketch after installing an updated `.sketchplugin`.
