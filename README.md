@@ -99,8 +99,8 @@ Percentages are relative to the dimension of the axis they're on. Here's how tha
 
 - Using `100%` as your **fixed width** equals `100%` of the relative layer's **width**
 - Using `100%` as your **fixed height** equals `100%` of the relative layer's **height**
-- Using `100%` in the **top or bottom** pinnings equals `100%` of relative layer's **height**
-- Using `100%` in the **right or left** pinnings equals `100%` of relative layer's **width**
+- Using `100%` in the **top or bottom** pinnings equals `100%` of the relative layer's **height**
+- Using `100%` in the **right or left** pinnings equals `100%` of the relative layer's **width**
 
 One neat application of this is that it enables padding between sibling layers, e.g:
 
