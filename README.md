@@ -104,7 +104,7 @@ Percentages are relative to the dimension of the axis they're on. Here's how tha
 
 One neat application of this is that it enables padding between sibling layers, e.g:
 
-- Parent Group or Layer
+- Parent Group or Artboard
   - Layer B (`top pinning = 100% + 20`, `relativity = Previous Sibling (Layer A)`)
   - Layer A
 
