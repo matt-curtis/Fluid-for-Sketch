@@ -29,7 +29,7 @@ Fluid is a Sketch plugin that provides a means to create more constraint-based, 
 # Features
 
 - Pin, Offset, Center, and Size relative to Parent Group, Parent Artboard, or Previous Sibling Layer.
-- Utilize simple mathematic expressions as values, such as `50% - 10`
+- Utilize simple mathematic expressions as values[**](#mathematic-values), such as `50% - 10`
 - View your artboards at different sizes (Mobile, Tablet, Desktop) using Preview Mode [**](#preview-mode)
 - Constraints are stored directly on a layer, so no worries with layer names.
 
@@ -91,6 +91,22 @@ If you set the width of a text layer but not its height, the plugin will set the
 
 In order to achieve this, the easiest way is to use the aspect ratio lock in Sketch's Layer Inspector, and set your constraints to change width or height.
 
+### Mathematic Values
+
+All of the values in Fluid support mathematic expressions, such as `20 * 2` or `50 / 2 + 10` and so on. This becomes even more useful when you add percentages to the mix.
+
+Percentages are relative to the dimension of the axis they're on. Here's how that shakes out:
+
+- Using `100%` as your **fixed width** equals `100%` of the relative layer's **width**
+- Using `100%` as your **fixed height** equals `100%` of the relative layer's **height**
+- Using `100%` in the **top and bottom** pinnings equals `100%` of relative layer's **height**
+- Using `100%` in the **right and left** pinnings equals `100%` of relative layer's **width**
+
+One neat application of this is that it enables padding between sibling layers, e.g:
+
+- Parent Group or Layer
+  - Layer B (`top pinning = 100% + 20`, `relativity = Previous Sibling (Layer A)`)
+  - Layer A
 
 # Contact
 
