@@ -24,7 +24,7 @@ Fluid is a Sketch plugin that provides a means to create more constraint-based, 
 
 # Updating
 
-1. Restart Sketch after installing an updated `.sketchplugin`.
+1. Restart Sketch after installing an updated version of Fluid's `.sketchplugin`.
 
 # Features
 
@@ -73,11 +73,11 @@ Preview Mode is rather limited at this time, as it only allows you to preview ar
 
 ### Width & Height
 
-If you have Fixed Width or Fixed Height checked, and leave the value blank, the plugin will lock the width or height to whatever the current height or width is in Sketch. This is useful in some cases where you want to ensure the height and width do not change. Less useful for groups, where the height and width are equal to the content (see 'Groups' below)
+If you have Fixed Width or Fixed Height checked, and leave the value blank, the plugin will lock the width or height to whatever the current height or width is in Sketch. This is useful in some cases where you want to ensure the height and width do not change.
 
 ### Groups
 
-Since the width and height of Groups in Sketch are dependent on their sub-layers, this plugin does not actually resize the height or width of a group, as that would distort the layers within it. Rather, it simulates that sizing when calculating the geometry of sub-layers.
+Since the width and height of Groups in Sketch are dependent on their sub-layers, Fluid does not actually resize the height or width of a group, as that causes Sketch to distort the layers within it. Rather, it simulates that sizing when calculating the geometry of sub-layers.
 
 ### Symbols
 
@@ -89,7 +89,7 @@ If you set the width of a text layer but not its height, the plugin will set the
 
 ### Proportions (Aspect Ratio Sizing)
 
-In order to achieve this, the easiest way is to use the aspect ratio lock in Sketch's Layer Inspector, and set your constraints to change width or height.
+In order to achieve this, the easiest way is to use the aspect ratio lock in Sketch's Layer Inspector, and set your constraints to change width or height. (Only height works at the moment)
 
 ### Mathematic Values
 
