@@ -120,7 +120,7 @@ One neat application of this is that it enables padding between sibling layers, 
 
 - Numbers in the Constraint Inspector text fields can be incremented or deincrement by 1 by pressing the up and down keys. Holding down Shift (⇧) and Up or Down will increment by 10.
 - Pressing space while a text field is focused will toggle that constraint's checkbox.
-- 
+
 ### Preset Sizes
 
 You can search through the section names of the preset sizes list (in both Preview Mode and when toggling sizes) by prefixing your searches with `s:`, i.e.: `s:iOS` or `s:Material`. Normally Fluid only searches among the preset names themselves.
