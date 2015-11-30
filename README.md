@@ -4,7 +4,7 @@
 
 Fluid is a Sketch plugin that provides a means to create more constraint-based, responsive designs. It is based on Auto Layout constraints.
 
-:package: [Download Plugin (.zip)](https://github.com/matt-curtis/Fluid-for-Sketch/releases/download/v1.6.1/Fluid.sketchplugin.zip) | :star: [Changelog](https://github.com/matt-curtis/Fluid-for-Sketch/releases/tag/v1.6.1) | :arrow_down: [Download the Demo Sketch Document](https://github.com/matt-curtis/Fluid-for-Sketch/raw/master/Constraint%20Demos.sketch)
+:package: [Download Plugin (.zip)](https://github.com/matt-curtis/Fluid-for-Sketch/releases/download/v1.6.1/Fluid.sketchplugin.zip) | :star: [Changelog](https://github.com/matt-curtis/Fluid-for-Sketch/releases) | :arrow_down: [Download the Demo Sketch Document](https://github.com/matt-curtis/Fluid-for-Sketch/raw/master/Constraint%20Demos.sketch)
 --- | --- | ---
 
 --
@@ -20,14 +20,16 @@ Fluid is a Sketch plugin that provides a means to create more constraint-based, 
 3. ???
 4. Profit!!!
 
+> A small number of people have experienced a rare bug where Fluid does not install successfully and commands do not work. If you think you might have this issue, please follow the instructions in this issue [here](https://github.com/matt-curtis/Fluid-for-Sketch/issues/32#issuecomment-154099340) to help us fix it.
+
 # Updating
 
-1. Restart Sketch after installing an updated `.sketchplugin`.
+1. Restart Sketch after installing an updated version of Fluid's `.sketchplugin`.
 
 # Features
 
 - Pin, Offset, Center, and Size relative to Parent Group, Parent Artboard, or Previous Sibling Layer.
-- Utilize simple mathematic expressions as values, such as `50% - 10`
+- Utilize simple mathematic expressions as values[**](#mathematic-values), such as `50% - 10`
 - View your artboards at different sizes (Mobile, Tablet, Desktop) using Preview Mode [**](#preview-mode)
 - Constraints are stored directly on a layer, so no worries with layer names.
 
@@ -71,11 +73,11 @@ Preview Mode is rather limited at this time, as it only allows you to preview ar
 
 ### Width & Height
 
-If you have Fixed Width or Fixed Height checked, and leave the value blank, the plugin will lock the width or height to whatever the current height or width is in Sketch. This is useful in some cases where you want to ensure the height and width do not change. Less useful for groups, where the height and width are equal to the content (see 'Groups' below)
+If you have Fixed Width or Fixed Height checked, and leave the value blank, the plugin will lock the width or height to whatever the current height or width is in Sketch. This is useful in some cases where you want to ensure the height and width do not change.
 
 ### Groups
 
-Since the width and height of Groups in Sketch are dependent on their sub-layers, this plugin does not actually resize the height or width of a group, as that would distort the layers within it. Rather, it simulates that sizing when calculating the geometry of sub-layers.
+Since the width and height of Groups in Sketch are dependent on their sub-layers, Fluid does not actually resize the height or width of a group, as that causes Sketch to distort the layers within it. Rather, it simulates that sizing when calculating the geometry of sub-layers.
 
 ### Symbols
 
@@ -87,8 +89,24 @@ If you set the width of a text layer but not its height, the plugin will set the
 
 ### Proportions (Aspect Ratio Sizing)
 
-In order to achieve this, the easiest way is to use the aspect ratio lock in Sketch's Layer Inspector, and set your constraints to change width or height.
+In order to achieve this, the easiest way is to use the aspect ratio lock in Sketch's Layer Inspector, and set your constraints to change width or height. (Only height works at the moment)
 
+### Mathematic Values
+
+All of the values in Fluid support mathematic expressions, such as `20 * 2` or `50 / 2 + 10` and so on. This becomes even more useful when you add percentages to the mix.
+
+Percentages are relative to the dimension of the axis they're on. Here's how that shakes out:
+
+- Using `100%` as your **fixed width** equals `100%` of the relative layer's **width**
+- Using `100%` as your **fixed height** equals `100%` of the relative layer's **height**
+- Using `100%` in the **top or bottom** pinnings equals `100%` of the relative layer's **height**
+- Using `100%` in the **right or left** pinnings equals `100%` of the relative layer's **width**
+
+One neat application of this is that it enables padding between sibling layers, e.g:
+
+- Parent Group or Artboard
+  - Layer B (`top pinning = 100% + 20`, `relativity = Previous Sibling (Layer A)`)
+  - Layer A
 
 # Contact
 
