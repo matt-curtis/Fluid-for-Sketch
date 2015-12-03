@@ -72,7 +72,7 @@ Opens a window allowing you to preview the selected artboard at a range of prese
 
 ### Toggle Sizes (⌃ + ⇧ + S)
 
-![Toggle Sizes](README/toggle-sizes.png)
+![Toggle Sizes](README/sizes-popover.png)
 
 Opens a popup where you can toggle the size of the current artboard between different presets, or flip its orientation.
 
