@@ -1,0 +1,6 @@
+framework module MCSketchBundleLoaderFramework {
+  umbrella header "MCSketchBundleLoaderFramework.h"
+
+  export *
+  module * { export * }
+}

@@ -3,7 +3,7 @@
 	"description": "Auto Layout-like constraints in Sketch",
 	"author": "Matt Curtis",
 	"homepage": "https://github.com/matt-curtis/Fluid-for-Sketch",
-	"version": "1.6.1",
+	"version": "1.7",
 
 	"identifier": "com.matt-curtis.sketch.constraints",
 	"updateURL": "https://raw.githubusercontent.com/matt-curtis/Fluid-for-Sketch/master/Fluid.sketchplugin/Contents/Sketch/manifest.json",
@@ -38,6 +38,19 @@
 			"shortcut": "ctrl shift p",
 			"script": "dynamicCommands.js",
 			"handler": "command_preview"
+		},
+		{
+			"name": "Toggle Artboard Size",
+			"identifier": "command_toggleArtboardSize",
+			"shortcut": "ctrl shift s",
+			"script": "dynamicCommands.js",
+			"handler": "command_toggleArtboardSize"
+		},
+		{
+			"name": "Settings",
+			"identifier": "command_showSettingsWindow",
+			"script": "dynamicCommands.js",
+			"handler": "command_showSettingsWindow"
 		}
 	],
 
@@ -47,7 +60,10 @@
 			"command_toggleToolbarVisiblity",
 			"command_updateLayout",
 			"command_editConstraints",
-			"command_preview"
+			"command_preview",
+			"command_toggleArtboardSize",
+			"-",
+			"command_showSettingsWindow"
 		]
 	}
 }
