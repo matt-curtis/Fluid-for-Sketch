@@ -15,7 +15,7 @@ Fluid is a Sketch plugin that provides a means to create more constraint-based, 
 
 ### Method 1: Sketch Toolbox
 
-Using [Sketch Toolbox](http://sketchtoolbox.com/), search for 'Fluid' and install.
+Using [Sketch Toolbox](http://sketchtoolbox.com/), search for 'Fluid' and install. Doing so will enable you to automatically receive any updates to Fluid without having to manually do so.
 
 ### Method 2: Manually
 
@@ -26,7 +26,7 @@ Using [Sketch Toolbox](http://sketchtoolbox.com/), search for 'Fluid' and instal
 
 # Updating
 
-1. After updating Fluid (whether manually or via Sketch Toolbox) restart Sketch.
+1. After updating Fluid (whether manually or via Sketch Toolbox) restart Sketch to receive goodness.
 
 # Features
 
@@ -38,7 +38,7 @@ Using [Sketch Toolbox](http://sketchtoolbox.com/), search for 'Fluid' and instal
 
 # Usage
 
-First and foremost, we recommend downloading the example Sketch document included in this repo (linked to it above). There are several examples included there, and examining the constraints used and playing around with the different options (i.e. Changing constraints, re-sizing artboards and pressing `Update Layout`) makes things clearer.
+First and foremost, we recommend downloading the example Sketch document included in this repo (linked to it above). There are several examples included there. Examining the constraints used and playing around with the different options (i.e. Changing constraints, re-sizing artboards and pressing `Update Layout`) makes things clearer.
 
 There are 5 primary actions: Show/Hide Toolbar, Update Layout, Edit Constraints, Preview, and Toggle Size. All of the features the plugin provides are available via `Plugins > Fluid`.
 
@@ -68,7 +68,7 @@ Pressing `L` while the Constraint Inspector is focused will also Update Layout.
 
 ![Preview Mode](README/preview-mode.png)
 
-Opens a window that allows you to preview the selected artboard at a range of preset device and icon sizes. You can also copy the preview artboard to paste into Sketch, or export an image of the preview artboard at different scales (@1x, @2x, @3x, and so on).
+Opens a window allowing you to preview the selected artboard at a range of preset device and icon sizes. You can also copy the preview artboard to paste into Sketch (Didn't have a mobile design? Now you do!), or export an image of the preview artboard at different scales (@1x, @2x, @3x, and so on).
 
 ### Toggle Sizes (⌃ + ⇧ + S)
 
