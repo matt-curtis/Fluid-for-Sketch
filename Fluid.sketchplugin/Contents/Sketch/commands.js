@@ -5,37 +5,37 @@
 //	--------
 
 $.commands.createCommand("toggleToolbarVisiblity", function(ctx){
-	var pluginController = [MCFluidPluginController pluginController:ctx.plugin pluginCommand:ctx.command];
+	var pluginController = getPluginController(ctx);
 
 	pluginController.toggleToolbarVisiblity();
 });
 
 $.commands.createCommand("editConstraints", function(ctx){
-	var pluginController = [MCFluidPluginController pluginController:ctx.plugin pluginCommand:ctx.command];
+	var pluginController = getPluginController(ctx);
 
 	pluginController.showConstraintInspector();
 });
 
 $.commands.createCommand("updateLayout", function(ctx){
-	var pluginController = [MCFluidPluginController pluginController:ctx.plugin pluginCommand:ctx.command];
+	var pluginController = getPluginController(ctx);
 
 	pluginController.updateLayout();
 });
 
 $.commands.createCommand("preview", function(ctx){
-	var pluginController = [MCFluidPluginController pluginController:ctx.plugin pluginCommand:ctx.command];
+	var pluginController = getPluginController(ctx);
 
 	pluginController.preview();
 });
 
 $.commands.createCommand("toggleArtboardSize", function(ctx){
-	var pluginController = [MCFluidPluginController pluginController:ctx.plugin pluginCommand:ctx.command];
+	var pluginController = getPluginController(ctx);
 
 	pluginController.showArtboardSizePresetsPopover();
 });
 
 $.commands.createCommand("showSettingsWindow", function(ctx){
-	var pluginController = [MCFluidPluginController pluginController:ctx.plugin pluginCommand:ctx.command];
+	var pluginController = getPluginController(ctx);
 
 	pluginController.showSettingsWindow();
 });
