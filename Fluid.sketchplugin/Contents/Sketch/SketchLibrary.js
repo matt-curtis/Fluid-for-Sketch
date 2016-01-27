@@ -377,21 +377,13 @@
 	};
 
 	runtime.loadBundle = function(bundlePath){
-		//	Load our loader framework if needed
-
-		var resourcesPath = paths.resourcesPath;
-
-		if(!runtime.classExists("MCSketchBundleLoader")){
-			if(!runtime.loadFramework("MCSketchBundleLoaderFramework", resourcesPath)){
-				log("Failed to load bundle-loader framework.");
-
-				return false;
-			}
-		}
-
-		//	Load our bundle
-
-		return [MCSketchBundleLoader load:bundlePath];
+		var bundle = NSBundle.bundleWithPath(bundlePath);
+		
+		if(bundle.isLoaded) bundle.unload();
+		
+		bundle.load();
+		
+		return bundle;
 	};
 
 	runtime.classExists = function(className){
