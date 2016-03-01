@@ -3,10 +3,10 @@
 //	Load Bundle
 
 if($.runtime.classExists("MCFluidPluginController") == false){
-	$.runtime.loadBundle($.paths.resourcesPath+"/MCSketchConstraints.bundle");
+	$.runtime.loadBundle($.paths.resourcesPath+"/Fluid.bundle");
 	
 	/*
-		Note to self and whoever else reads these (say hi on twitter :) special word: efficacy):
+		Note to self and whoever else reads these (say hi on twitter :) special word: loneliness):
 		A more robust method for detecting/identifying the existing plugin in the runtime is needed...
 	*/
 }

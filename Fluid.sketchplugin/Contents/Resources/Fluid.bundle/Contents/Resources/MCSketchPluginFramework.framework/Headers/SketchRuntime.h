@@ -240,7 +240,7 @@
 
 @interface MSExporter : NSObject
 
-	+ (instancetype) exporterForRequest:(MSExportRequest*)exportRequest colorSpace:(NSColorSpace*)colorSpace allowSubpixelAntialiasing:(BOOL)allowSubpixelAntialiasing;
+	+ (instancetype) exporterForRequest:(MSExportRequest*)exportRequest colorSpace:(NSColorSpace*)colorSpace;
 
 	- (NSData*) PNGData;
 

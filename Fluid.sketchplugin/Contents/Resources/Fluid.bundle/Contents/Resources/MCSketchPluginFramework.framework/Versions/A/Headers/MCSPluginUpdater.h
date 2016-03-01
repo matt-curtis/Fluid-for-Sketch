@@ -13,6 +13,9 @@
 
 	@property (nonatomic) NSString *pluginIdentifier;
 
+	@property (nonatomic) NSString *pluginName;
+
+
 	- (BOOL) isNewerPluginBundleAvailableLocally:(NSString*)loadedVersion;
 
 	- (void) showUpdateRestartPrompt;
