@@ -1,4 +1,4 @@
-# :droplet: Fluid for Sketch 1.7.3
+# :droplet: Fluid for Sketch 1.7.4
 
 > *A collaborative project brought to you by [Matt Curtis](https://twitter.com/matt_sven) & [Cat Noone](https://twitter.com/imcatnoone)*
 
@@ -98,6 +98,8 @@ It's worth noting that while constraints you set on a Symbol *itself* will not p
 ### Text
 
 If you set the width of a text layer but not its height, the plugin will set the height of the text layer to the height of the text after reflow.
+
+> This feature was available in former versions of Fluid, but has been removed in 1.7.4. [See this issue](https://github.com/matt-curtis/Fluid-for-Sketch/issues/111) for more info.
 
 ### Mathematic Values
 

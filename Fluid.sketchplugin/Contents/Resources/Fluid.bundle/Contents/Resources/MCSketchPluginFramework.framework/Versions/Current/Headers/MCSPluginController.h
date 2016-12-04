@@ -45,8 +45,6 @@ extern NSString *const MCSPluginNotificationDocumentWindowKey;
 
 	@property (nonatomic, readonly) MCSPluginUserDefaults *userDefaults;
 
-	@property (nonatomic, readonly) MCSPluginUpdater *updater;
-
 
 	+ (instancetype) pluginController:(MSPluginBundle*)plugin pluginCommand:(MSPluginCommand*)pluginCommand;
 

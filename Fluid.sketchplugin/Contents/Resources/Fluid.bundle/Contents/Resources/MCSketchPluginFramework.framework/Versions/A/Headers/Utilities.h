@@ -6,7 +6,7 @@
 //  Copyright © 2015 Matt. All rights reserved.
 //
 
-#import <MCSketchPluginFramework/SketchRuntime.h>
+#import "SketchRuntime.h"
 
 #import "MochaRuntime.h"
 
@@ -34,6 +34,14 @@ JSValue *JSValueFromMochaObject(MOJavaScriptObject *mochaObject);
 CGFloat Sketch_GetTextHeight(CGFloat desiredTextWidth, MSTextLayer *textLayer);
 
 CGSize Sketch_GetTextSize(MSTextLayer *textLayer);
+
+
+#pragma mark -
+#pragma mark Layer Creation
+
+MSShapeGroup *Sketch_CreateShapeLayer();
+
+MSTextLayer *Sketch_CreateTextLayer();
 
 
 #pragma mark -
