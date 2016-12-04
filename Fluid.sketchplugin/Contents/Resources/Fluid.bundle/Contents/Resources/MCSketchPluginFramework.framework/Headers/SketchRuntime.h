@@ -20,22 +20,11 @@
 #pragma mark Protocols
 
 @protocol MSPageDelegate <NSObject>
-	/*
-	- (void) refreshViewsWithMask:(unsigned long long)arg1;
-	- (void) refreshOfType:(unsigned long long)arg1 rect:(struct CGRect)arg2;
-	- (void) didUpdateDetailsForPage:(MSPage *)arg1;
-	- (void) willRemovePage:(MSPage *)arg1;
-	- (void) didAddPage:(MSPage *)arg1;
-	- (void) willRemoveArtboard:(MSArtboardGroup *)arg1 fromPage:(MSPage *)arg2;
-	- (void) didAddArtboard:(MSArtboardGroup *)arg1 toPage:(MSPage *)arg2;
-	- (void) didUpdateDetailsForArtboard:(MSArtboardGroup *)arg1;
-	- (void) determineCurrentArtboard;
-	*/
+
 	- (void) layerSelectionDidChange;
+
 	- (void) currentArtboardDidChange;
-	/*
-	- (void) collectRefreshRect:(struct CGRect)arg1 page:(MSPage *)arg2;
-	*/
+
 @end
 
 
@@ -53,6 +42,8 @@
 #define MSLayerArray_Class GetClass(@"MSLayerArray")
 
 @interface MSLayerArray : NSObject <NSFastEnumeration>
+
+	@property (copy, nonatomic) NSArray *layers;
 
 	+ (instancetype) arrayWithLayers:(NSArray*)layers;
 
@@ -152,11 +143,16 @@
 
 @interface MSLayer : NSObject
 
+	@property (nonatomic) NSString *name;
+
+	@property (readonly, nonatomic) BOOL nameIsFixed;
+
+
 	@property (nonatomic) id sharedObjectID;
 
-	@property (nonatomic) MSAbsoluteRect *absoluteRect;
+	@property (readonly, copy, nonatomic) NSObject<NSCopying, NSCoding> *objectID;
 
-	@property (nonatomic) NSString *name;
+	@property (readonly, nonatomic) NSObject<NSCopying, NSCoding> *originalObjectID;
 
 
 	@property (nonatomic) CGPoint origin;
@@ -165,18 +161,38 @@
 
 	@property (retain, nonatomic) MSRect *frame;
 
+	@property (nonatomic) MSAbsoluteRect *absoluteRect;
+
+
+	@property (nonatomic) BOOL isSelected;
+
+	@property (nonatomic) BOOL isHovering;
+
+
+	- (void) select:(BOOL)select byExpandingSelection:(BOOL)expandSelection showSelection:(BOOL)showSelection;
+
+	- (void) select:(BOOL)select byExpandingSelection:(BOOL)expandSelection;
+
+
+	- (MSLayerGroup*) parentGroup;
 
 	- (MSPage*) parentPage;
 
 	- (MSArtboardGroup*) parentArtboard;
 
+
 	- (instancetype) duplicate;
+
 
 	- (void) removeFromParent;
 
+
 	- (BOOL) isSharedObject;
+
 	- (BOOL) isSymbol;
+
 	- (BOOL) containsSymbols;
+
 	- (BOOL) parentOrSelfIsSymbol;
 
 @end
@@ -264,6 +280,14 @@
 	- (NSTextContainer*) textContainer;
 
 	- (NSLayoutManager*) layoutManager;
+
+@end
+
+#define MSShapeGroup_Class GetClass(@"MSShapeGroup")
+
+@interface MSShapeGroup : MSLayerGroup
+
+	- (void) prepareAsMask;
 
 @end
 
