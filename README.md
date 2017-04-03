@@ -27,6 +27,8 @@ Using [Sketch Toolbox](http://sketchtoolbox.com/), search for 'Fluid' and instal
 ### Method 3: Install with Sketch Runner
 With Sketch Runner, just go to the `install` command and search for `Fluid`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
 
+![Install with Sketch Runner](fluid-runner.png)
+
 # Updating
 
 1. After updating Fluid (whether manually or via Sketch Toolbox or via Sketch Runner) restart Sketch to receive goodness.
