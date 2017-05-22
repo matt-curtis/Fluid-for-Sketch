@@ -1,23 +1,40 @@
-# :droplet: Fluid for Sketch 1.7.4
+# :droplet: Fluid for Sketch 1.7.5
 
 > *A collaborative project brought to you by [Matt Curtis](https://twitter.com/matt_sven) & [Cat Noone](https://twitter.com/imcatnoone)*
 
 Fluid is a Sketch plugin that provides a means to create more constraint-based, responsive designs. It is based on Auto Layout constraints.
 
-:package: [Download Plugin (.zip)](https://github.com/matt-curtis/Fluid-for-Sketch/releases/download/v1.7.4/Fluid.sketchplugin.zip) | :star: [Changelog](https://github.com/matt-curtis/Fluid-for-Sketch/releases) | :arrow_down: [Download the Demo Sketch Document](https://github.com/matt-curtis/Fluid-for-Sketch/raw/master/Constraint%20Demos.sketch)
+:package: [Download Plugin (.zip)](https://github.com/matt-curtis/Fluid-for-Sketch/releases/download/v1.7.5/Fluid.sketchplugin.zip) | :star: [Changelog](https://github.com/matt-curtis/Fluid-for-Sketch/releases) | :arrow_down: [Download the Demo Sketch Document](https://github.com/matt-curtis/Fluid-for-Sketch/raw/master/Constraint%20Demos.sketch)
 --- | --- | ---
 
---
+---
 
 ![](README/screenshot.png)
 
 # Installation
 
-### Method 1: Sketch Toolbox
+### Using SketchPacks
 
-Using [Sketch Toolbox](http://sketchtoolbox.com/), search for 'Fluid' and install. Doing so will enable you to automatically receive any updates to Fluid without having to manually do so.
+[![Install PLUGIN NAME with Sketchpacks](http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png "Install PLUGIN NAME with Sketchpacks")](https://sketchpacks.com/YOUR_NAME/PLUGIN_NAME/install)
 
-### Method 2: Manually
+### Using Sketch Runner
+
+With Sketch Runner, just go to the `install` command and search for `Fluid`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
+
+![Install with Sketch Runner](README/fluid-runner.png)
+
+### Using Sketch Plugin Manager
+
+Installation via [Sketch Plugin Manager](https://mludowise.github.io/Sketch-Plugin-Manager/):
+
+1. In the 'Catalog' tab, click in the 'Search' field and type 'Fluid', to filter the list
+2. You will see the 'Fluid for Sketch' plugin listed. Click the 'Install' button.
+
+### Using Sketch Toolbox
+
+⚠️ Sketch Toolbox is no longer officially supported due to a lack of updates and several bugs. If you usually use Sketch Toolbox, please install manually or through another plugin manager.
+
+### Manually
 
 1. Download the `.zip` above and extract it.
 2. Double-click `Fluid.sketchplugin`.
@@ -26,7 +43,7 @@ Using [Sketch Toolbox](http://sketchtoolbox.com/), search for 'Fluid' and instal
 
 # Updating
 
-1. After updating Fluid (whether manually or via Sketch Toolbox) restart Sketch to receive goodness.
+1. After updating Fluid (whether manually or via other manager) restart Sketch to receive goodness.
 
 # Features
 
@@ -99,7 +116,7 @@ It's worth noting that while constraints you set on a Symbol *itself* will not p
 
 If you set the width of a text layer but not its height, the plugin will set the height of the text layer to the height of the text after reflow.
 
-> This feature was available in former versions of Fluid, but has been removed in 1.7.4. [See this issue](https://github.com/matt-curtis/Fluid-for-Sketch/issues/111) for more info.
+> <s>This feature was available in former versions of Fluid, but has been removed in 1.7.4. [See this issue](https://github.com/matt-curtis/Fluid-for-Sketch/issues/111) for more info.</s> **Restored in Fluid 1.7.5!** 🎉
 
 ### Mathematic Values
 

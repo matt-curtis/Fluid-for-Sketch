@@ -1,6 +1,0 @@
-framework module MCSketchPluginFramework {
-  umbrella header "MCSketchPluginFramework.h"
-
-  export *
-  module * { export * }
-}
