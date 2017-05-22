@@ -277,9 +277,13 @@
 
 	@property (nonatomic) double fontSize;
 
-	- (NSTextContainer*) textContainer;
+	@property (nonatomic, copy) NSAttributedString *attributedStringValue;
 
-	- (NSLayoutManager*) layoutManager;
+	- (NSTextStorage*) createTextStorage;
+
+	- (NSTextContainer*) createTextContainer;
+
+	- (NSLayoutManager*) createLayoutManager;
 
 @end
 
@@ -367,5 +371,14 @@
 	@property (retain, nonatomic) MSPluginManager *pluginManager;
 
 	//@property (retain, nonatomic) MSPasteboardManager *pasteboardManager;
+
+@end
+
+#define MSArtboardPresetStore_Class GetClass(@"MSArtboardPresetStore")
+
+@interface MSArtboardPresetStore : NSObject
+
+	+ (NSURL*) systemPresetsURL;
+	- (NSURL*) userPresetsURL;
 
 @end
