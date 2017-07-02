@@ -15,7 +15,7 @@ Fluid is a Sketch plugin that provides a means to create more constraint-based, 
 
 ### Using Sketchpacks
 
-[![Install PLUGIN NAME with Sketchpacks](http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png "Install PLUGIN NAME with Sketchpacks")](https://sketchpacks.com/matt-curtis/fluid-for-sketch/install)
+[![Install Fluid for Sketch with Sketchpacks](http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png "Install PLUGIN NAME with Sketchpacks")](https://sketchpacks.com/matt-curtis/fluid-for-sketch/install)
 
 ### Using Sketch Runner
 
