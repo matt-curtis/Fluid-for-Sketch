@@ -3,14 +3,27 @@
 	"description": "Auto Layout-like constraints in Sketch",
 	"author": "Matt Curtis",
 	"homepage": "https://github.com/matt-curtis/Fluid-for-Sketch",
-	"version": "1.7.4",
+	"version": "1.7.6",
 
 	"identifier": "com.matt-curtis.sketch.constraints",
 	"updateURL": "https://raw.githubusercontent.com/matt-curtis/Fluid-for-Sketch/master/Fluid.sketchplugin/Contents/Sketch/manifest.json",
+	"appcast": "https://api.sketchpacks.com/v1/plugins/com.matt-curtis.sketch.constraints/appcast",
+
 	"compatibleVersion": 3,
 	"bundleVersion": 1,
 
 	"commands": [
+		{
+			"name": "Actions",
+			"script": "dynamicCommands.js",
+			"handlers" : {
+				"actions": {
+    				"SelectionChanged.finish": "selectionDidChange",
+					"ArtboardChanged.finish": "artboardDidChange"
+				}
+			}
+		},
+
 		{
 			"name": "Show/Hide Toolbar",
 			"identifier": "command_toggleToolbarVisiblity",

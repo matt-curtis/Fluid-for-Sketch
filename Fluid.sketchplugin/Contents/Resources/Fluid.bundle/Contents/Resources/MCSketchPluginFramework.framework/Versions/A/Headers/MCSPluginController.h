@@ -56,9 +56,6 @@ extern NSString *const MCSPluginNotificationDocumentWindowKey;
 	+ (NSAlert*) alertWithTitle:(NSString*)title information:(NSString*)information;
 
 
-	- (void) applicationDidBecomeActive;
-
-
 	- (void) allDocumentsDidClose;
 
 	- (void) currentDocumentDidChange:(NSNotification*)notification;

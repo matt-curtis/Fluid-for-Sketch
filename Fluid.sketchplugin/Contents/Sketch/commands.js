@@ -1,5 +1,17 @@
 @import "main.js"
 
+//	-------
+//	ACTIONS
+//	-------
+
+function selectionDidChange(ctx){
+	getPluginController(ctx).currentSelectionDidChange();
+};
+
+function artboardDidChange(ctx){
+	getPluginController(ctx).currentDocumentDidChange();
+};
+
 //	--------
 //	COMMANDS
 //	--------
