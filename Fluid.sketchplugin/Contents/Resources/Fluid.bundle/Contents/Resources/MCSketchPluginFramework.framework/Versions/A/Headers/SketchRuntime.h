@@ -216,7 +216,7 @@
 
 	- (MSLayer*) addLayerOfType:(NSString*)type;
 
-	- (BOOL) resizeRoot:(BOOL)recursive;
+	- (BOOL) resizeToFitChildrenWithOption:(long long)arg1;
 
 @end
 
@@ -278,12 +278,6 @@
 	@property (nonatomic) double fontSize;
 
 	@property (nonatomic, copy) NSAttributedString *attributedStringValue;
-
-	- (NSTextStorage*) createTextStorage;
-
-	- (NSTextContainer*) createTextContainer;
-
-	- (NSLayoutManager*) createLayoutManager;
 
 @end
 
