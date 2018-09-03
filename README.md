@@ -1,3 +1,9 @@
+# ⚠️ This project is no longer actively maintained.
+
+While some functionality of this plugin _may_ continue to work for the forseeable future, there is no guarantee that it will survive any breaking changes made by the Sketch team. If you're looking for potential alternatives to Fluid plugin, look [here](https://github.com/matt-curtis/Fluid-for-Sketch/issues/134#issuecomment-417085221).
+
+---
+
 # :droplet: Fluid for Sketch 1.7.6
 
 > *A collaborative project brought to you by [Matt Curtis](https://twitter.com/matt_sven) & [Cat Noone](https://twitter.com/imcatnoone)*
